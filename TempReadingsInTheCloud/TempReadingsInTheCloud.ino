@@ -8,12 +8,12 @@ int baselineTamp = 40;
 int celsuis = 0;
 int fahrenheit = 0;
 
-char ssid[] = "Home"; // my network SSID 
-char pass[] = "Nolasco10@"; // my network password
+char ssid[] = ""; // my network SSID 
+char pass[] = ""; // my network password
 int status = WL_IDLE_STATUS; // wifi radio's status
 
-unsigned long myChannelNumber = 2329643;
-const char * myWriteAPIKey = "4AEG1VYNKZTWMKI6";
+unsigned long myChannelNumber = ; // your channel from thingspeak
+const char * myWriteAPIKey = ""; // your API from thingspeak
 
 WiFiClient client;
 
